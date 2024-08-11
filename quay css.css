@@ -1,0 +1,71 @@
+@charset "utf-8";
+.content {
+    min-height: 100vh; /* Chiều cao tối thiểu là 100% chiều cao khung nhìn */
+    background-color: lightgrey; /* Ví dụ về màu nền để kiểm tra */
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #8A8384;
+    margin: 0;
+    font-family: Arial, sans-serif;
+	cursor: url('./chan meo 1.png'), auto; 
+}
+
+/* CSS Document */
+
+a, button {
+    cursor: url('./chan meo 1.png'), auto; /* Giữ con trỏ tùy chỉnh cho các liên kết và nút bấm */
+}
+	
+button {
+  height: 60px;
+  width: 120px;
+  font-size: 15px;
+  color: white;
+  background-color: tomato;
+  border-style:dashed ;
+	border-radius: 5px;
+  position: relative;
+  left:-50px;
+  top:80px;
+	
+}
+button:hover {
+  background-color: wheat;
+  color: black;
+}
+#button-2 {
+  transition-property: color;
+  transition-duration: 2s;
+}
+footer {
+    
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.p1 {
+	color: aqua;
+	font-weight: bolder;
+	text-decoration:none;
+}
+.paw {
+    position: absolute;
+    width: 50px; /* Kích thước của hình ảnh chân mèo */
+    height: 50px;
+    background: url('./chan meo 2.png') no-repeat center center;
+    background-size: contain;
+    pointer-events: none;
+    display: none; /* Ban đầu ẩn hình ảnh chân mèo */
+}

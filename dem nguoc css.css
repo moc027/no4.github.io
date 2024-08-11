@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+cursor: url('./chan meo 1.png'), auto;	
+}
+ 
+.countdown {
+	display: flex;
+	height: 550px;
+	justify-content: center;
+	align-items: center;
+}
+.countdown-item {
+	font-size: 48px;
+	font-weight: bold;	 
+    color: #333;
+	position: relative;
+	top: 38px;
+	left: 15px;
+}
+.paw {
+    position: absolute;
+    width: 50px; /* Kích thước của hình ảnh chân mèo */
+    height: 50px;
+    background: url('./chan meo 2.png') no-repeat center center;
+    background-size: contain;
+    pointer-events: none;
+    display: none; /* Ban đầu ẩn hình ảnh chân mèo */
+}
